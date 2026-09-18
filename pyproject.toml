@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paeddeadspace"
+version = "1.0.0"
+description = "An open-source pediatric mechanical-ventilation explorer for modeling apparatus dead-space burden, alveolar ventilation, and compensatory respiratory-rate requirements."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = {text = "MIT"}
+authors = [{name = "Paolo Taffache", email = "taffache@gmail.com"}]
+keywords = ["pediatric anesthesia", "pediatric intensive care", "mechanical ventilation", "dead space", "apparatus dead space", "alveolar ventilation"]
+dependencies = []
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.urls]
+Homepage = "https://github.com/taffache-hash/PaedDeadSpace-Core"
+Repository = "https://github.com/taffache-hash/PaedDeadSpace-Core"
+Issues = "https://github.com/taffache-hash/PaedDeadSpace-Core/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

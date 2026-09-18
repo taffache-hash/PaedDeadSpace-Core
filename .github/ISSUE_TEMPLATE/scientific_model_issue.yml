@@ -1,0 +1,13 @@
+name: Scientific / model issue
+description: Question or correction concerning an equation, assumption, source, or provenance entry
+title: "[Scientific] "
+labels: [scientific]
+body:
+  - type: textarea
+    id: issue
+    attributes: {label: Scientific issue, description: Identify the equation, assumption, or provenance entry.}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: Supporting evidence, description: Provide citation/DOI and explain whether support is direct, partial, or inferential.}
+    validations: {required: true}
