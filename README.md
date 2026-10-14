@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/taffache-hash/PaedDeadSpace-Core/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tests](https://github.com/taffache-hash/PaedDeadSpace-Core/actions/workflows/tests.yml/badge.svg)](https://github.com/taffache-hash/PaedDeadSpace-Core/actions/workflows/tests.yml)
-![Zenodo DOI](https://img.shields.io/badge/Zenodo%20DOI-pending-lightgrey)
+[![Core v1.0.0 DOI cited in manuscript](https://zenodo.org/badge/DOI/10.5281/zenodo.22838225.svg)](https://doi.org/10.5281/zenodo.22838225)
 
 **PaedDeadSpace: Pediatric Apparatus Dead-Space Explorer — Core** is the scientific Python engine for modeling pediatric apparatus dead-space burden, alveolar ventilation, and compensatory respiratory-rate requirements.
 
@@ -56,7 +56,7 @@ This case is a **reproducibility benchmark, not a physiological default or treat
 No copyrighted full-text articles are redistributed in this repository.
 
 ## Citation
-GitHub will expose `CITATION.cff` through **Cite this repository**. The PaedDeadSpace-Core Zenodo DOI will be the preferred citation for the scientific project once assigned.
+GitHub provides machine-readable citation metadata in [`CITATION.cff`](CITATION.cff). The accompanying manuscript lists the Core concept DOI [10.5281/zenodo.22838224](https://doi.org/10.5281/zenodo.22838224) and the archived Core v1.0.0 DOI [10.5281/zenodo.22838225](https://doi.org/10.5281/zenodo.22838225). The Zenodo landing-page metadata should be checked before formal citation. The [tagged v1.0.0 GitHub release](https://github.com/taffache-hash/PaedDeadSpace-Core/releases/tag/v1.0.0) preserves the version identity.
 
 ## Author
 **Paolo Taffache** — ORCID: 0009-0002-8806-9733  
